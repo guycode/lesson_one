@@ -1,8 +1,5 @@
-puts "Please enter your name NOW"
-name = gets.chomp
-puts "Hey there " + name
-
-10.times do 
-  puts name
-  
-end
+puts "Please enter your first name NOW"
+first_name = gets.chomp
+puts "Thanks " + first_name + " what is your LAST name?"
+last_name = gets.chomp
+puts "great. so your full funny name is " + first_name + " " +last_name
