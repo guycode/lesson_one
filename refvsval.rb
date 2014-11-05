@@ -1,4 +1,6 @@
 
-def newmethod([1,1,3,4,4,7,8])
-  newmethod.uniq
+def newmethod(some_array)
+  some_array.uniq
 end
+
+puts newmethod([1,1,1,2,3,45,65])
